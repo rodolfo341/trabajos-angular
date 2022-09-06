@@ -1,0 +1,8 @@
+h1 {
+    color: aqua;
+}
+
+.btn:hover {
+    background-color: black;
+    color: aliceblue;
+}

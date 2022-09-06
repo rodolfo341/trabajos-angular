@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PersonasComponent implements OnInit {
 
+    deshabilitar = false;
+    mensaje = "no se ha agregado ninguna persona";
+
+    agregarPersona(){
+        this.mensaje = "Persona agregada";
+    }
+
     constructor() { }
 
     ngOnInit(): void {
